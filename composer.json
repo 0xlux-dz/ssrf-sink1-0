@@ -2,7 +2,7 @@
  "repositories": [
   {
    "type": "vcs",
-   "url": "https://localtest.me/"
+   "url": "https://example.com/"
   }
  ],
  "require": {
