@@ -2,7 +2,7 @@ version: 2
 registries:
   sink1tunnel:
     type: npm-registry
-    url: https://example.com:8443
+    url: https://wrong.host.badssl.com
     token: ${{secrets.SINK1_TOKEN}}
     replaces-base: true
 updates:
