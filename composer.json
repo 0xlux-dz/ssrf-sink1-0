@@ -2,7 +2,7 @@
  "repositories": [
   {
    "type": "vcs",
-   "url": "http://localhost/"
+   "url": "http://0.0.0.0/"
   }
  ],
  "require": {
