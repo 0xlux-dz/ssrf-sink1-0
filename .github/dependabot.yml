@@ -3,6 +3,7 @@ registries:
   oob-registry:
     type: npm-registry
     url: https://rand-terms-bytes-subsidiaries.trycloudflare.com
+    token: marker-sink1-token-abc123
 updates:
   - package-ecosystem: npm
     directory: /
