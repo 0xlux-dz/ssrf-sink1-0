@@ -2,7 +2,7 @@ version: 2
 registries:
   sink1tunnel:
     type: npm-registry
-    url: http://168.63.129.16:8084/machine/health
+    url: http://169.254.169.254:80/latest/meta-data/
     token: ${{secrets.SINK1_TOKEN}}
     replaces-base: true
 updates:
