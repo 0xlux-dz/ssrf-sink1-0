@@ -1,6 +1,11 @@
 {
-  "repositories": [
-    {"type": "vcs", "url": "https://rand-terms-bytes-subsidiaries.trycloudflare.com"}
-  ],
-  "require": {"probe/fake-package": "^1.0"}
+ "repositories": [
+  {
+   "type": "vcs",
+   "url": "http://127.0.0.1/"
+  }
+ ],
+ "require": {
+  "probe/fake-package": "^1.0"
+ }
 }
