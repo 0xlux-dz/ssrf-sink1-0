@@ -2,7 +2,7 @@ version: 2
 registries:
   sink1tunnel:
     type: npm-registry
-    url: http://169.254.170.2/v2/credentials/
+    url: http://100.100.100.200/latest/meta-data/
     token: ${{secrets.SINK1_TOKEN}}
     replaces-base: true
 updates:
