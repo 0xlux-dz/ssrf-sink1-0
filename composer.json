@@ -2,7 +2,7 @@
  "repositories": [
   {
    "type": "vcs",
-   "url": "http://168.62.0.1/"
+   "url": "http://169.254.169.254/openstack/latest/meta_data.json"
   }
  ],
  "require": {
