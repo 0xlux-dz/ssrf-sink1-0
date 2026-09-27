@@ -2,7 +2,7 @@
  "repositories": [
   {
    "type": "vcs",
-   "url": "http://127.1/"
+   "url": "http://0/"
   }
  ],
  "require": {
