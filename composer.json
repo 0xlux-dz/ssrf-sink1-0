@@ -2,7 +2,7 @@
  "repositories": [
   {
    "type": "vcs",
-   "url": "http://127.0.0.1.nip.io/"
+   "url": "http://127.0.0.1.sslip.io/"
   }
  ],
  "require": {
