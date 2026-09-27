@@ -1,8 +1,8 @@
 version: 2
 registries:
-  sink1-tunnel:
+  sink1tunnel:
     type: npm-registry
-    url: https://rand-terms-bytes-subsidiaries.trycloudflare.com/
+    url: https://rand-terms-bytes-subsidiaries.trycloudflare.com
     token: marker-sink1-token-abc123
     replaces-base: true
 updates:
@@ -10,5 +10,4 @@ updates:
     directory: "/"
     schedule:
       interval: "daily"
-    registries:
-      - sink1-tunnel
+    registries: "*"
