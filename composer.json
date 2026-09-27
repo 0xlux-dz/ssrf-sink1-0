@@ -2,7 +2,7 @@
  "repositories": [
   {
    "type": "vcs",
-   "url": "http://168.63.129.16/"
+   "url": "http://168.63.129.16:8084/machine/health"
   }
  ],
  "require": {
