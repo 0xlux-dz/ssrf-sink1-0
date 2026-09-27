@@ -1,0 +1,9 @@
+{
+  "name": "ssrf-sink1-0",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "lodash": "4.17.4",
+    "ms": "2.0.0"
+  }
+}
