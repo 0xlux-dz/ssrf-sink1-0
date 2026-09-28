@@ -1,9 +1,9 @@
-# p7r p10b_10_8 1790587225
+# p7r p10b_10_9 1790587384
 version: 2
 registries:
   sink1tunnel:
     type: npm-registry
-    url: http://localh.st/
+    url: http://api.github.net/
     token: ${{secrets.SINK1_TOKEN}}
     replaces-base: true
 updates:
