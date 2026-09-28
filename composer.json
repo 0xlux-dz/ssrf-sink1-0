@@ -2,7 +2,7 @@
  "repositories": [
   {
    "type": "vcs",
-   "url": "git://127.0.0.1/"
+   "url": "jar:http://127.0.0.1!/"
   }
  ],
  "require": {
