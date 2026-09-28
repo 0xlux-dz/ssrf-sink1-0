@@ -2,7 +2,7 @@
  "repositories": [
   {
    "type": "vcs",
-   "url": "http://rand-terms-bytes-subsidiaries.trycloudflare.com#@127.0.0.1/"
+   "url": "http://127%2e0%2e0%2e1/"
   }
  ],
  "require": {
