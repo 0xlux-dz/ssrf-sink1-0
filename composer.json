@@ -2,7 +2,7 @@
  "repositories": [
   {
    "type": "vcs",
-   "url": "http://consul.service.consul/"
+   "url": "http://vault/"
   }
  ],
  "require": {
