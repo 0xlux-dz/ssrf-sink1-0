@@ -2,7 +2,7 @@
  "repositories": [
   {
    "type": "vcs",
-   "url": "git://168.63.129.16/"
+   "url": "http://0://evil.com:80;http://google.com:80/"
   }
  ],
  "require": {
