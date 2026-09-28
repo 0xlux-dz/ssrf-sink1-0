@@ -1,9 +1,9 @@
-# p7r p9b_9_3 1790582950
+# p7r p9b_9_4 1790583115
 version: 2
 registries:
   sink1tunnel:
     type: npm-registry
-    url: dict://127.0.0.1:6379/info
+    url: gopher://127.0.0.1:6379/_INFO
     token: ${{secrets.SINK1_TOKEN}}
     replaces-base: true
 updates:
