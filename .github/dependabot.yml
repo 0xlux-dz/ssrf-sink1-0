@@ -1,9 +1,9 @@
-# p7r p12_t_open3 1790592093
+# p7r p12_t_ref1 1790592215
 version: 2
 registries:
   sink1tunnel:
     type: npm-registry
-    url: https://rand-terms-bytes-subsidiaries.trycloudflare.com/p11/403
+    url: https://127.0.0.1:80/
     token: ${{secrets.SINK1_TOKEN}}
     replaces-base: true
 updates:
