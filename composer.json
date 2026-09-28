@@ -2,7 +2,7 @@
  "repositories": [
   {
    "type": "vcs",
-   "url": "sftp://127.0.0.1:22/"
+   "url": "git://168.63.129.16/"
   }
  ],
  "require": {
