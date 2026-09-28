@@ -2,7 +2,7 @@
  "repositories": [
   {
    "type": "vcs",
-   "url": "file:///proc/self/environ"
+   "url": "dict://127.0.0.1:6379/info"
   }
  ],
  "require": {
