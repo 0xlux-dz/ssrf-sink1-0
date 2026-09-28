@@ -1,9 +1,9 @@
-# p7r p15b_co 1790631746
+# p7r p15b_mg 1790631912
 version: 2
 registries:
   sink1tunnel:
     type: npm-registry
-    url: http://consul/
+    url: http://metadata.google.internal/
     token: ${{secrets.SINK1_TOKEN}}
     replaces-base: true
 updates:
