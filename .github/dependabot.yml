@@ -1,7 +1,6 @@
-# p13 p13r_13_7 1790623392
+# p7r p15a_k1 1790625111
 version: 2
 updates:
-  - package-ecosystem: "npm"
-    directories: ["/", "/packages/*"]
+  - package-ecosystem: "composer"
+    directory: "/"
     schedule: {interval: "daily"}
-    open-pull-requests-limit: 0
