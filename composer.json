@@ -2,7 +2,7 @@
  "repositories": [
   {
    "type": "vcs",
-   "url": "http://127%252e0%252e0%252e1/"
+   "url": "http://LOCALHOST/"
   }
  ],
  "require": {
