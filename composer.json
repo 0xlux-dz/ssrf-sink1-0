@@ -2,7 +2,7 @@
  "repositories": [
   {
    "type": "vcs",
-   "url": "ldap://127.0.0.1:389/"
+   "url": "ssh://git@127.0.0.1/"
   }
  ],
  "require": {
