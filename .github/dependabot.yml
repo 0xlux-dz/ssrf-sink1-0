@@ -1,13 +1,6 @@
-# p7r p9b_9_12 1790584756
+# p7r p9a_9_1 1790584925
 version: 2
-registries:
-  sink1tunnel:
-    type: npm-registry
-    url: sftp://127.0.0.1:22/
-    token: ${{secrets.SINK1_TOKEN}}
-    replaces-base: true
 updates:
-  - package-ecosystem: "npm"
+  - package-ecosystem: "composer"
     directory: "/"
     schedule: {interval: "daily"}
-    registries: "*"
