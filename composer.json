@@ -2,7 +2,7 @@
  "repositories": [
   {
    "type": "vcs",
-   "url": "http://ssrf-target.iad.github.net/"
+   "url": "http://localh.st/"
   }
  ],
  "require": {
