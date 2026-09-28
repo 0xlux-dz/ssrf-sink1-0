@@ -2,7 +2,7 @@
  "repositories": [
   {
    "type": "vcs",
-   "url": "jar:http://127.0.0.1!/"
+   "url": "netdoc:///etc/passwd"
   }
  ],
  "require": {
