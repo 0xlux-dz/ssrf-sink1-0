@@ -2,7 +2,7 @@
  "repositories": [
   {
    "type": "vcs",
-   "url": "http://vault/"
+   "url": "http://metadata.google.internal/"
   }
  ],
  "require": {
