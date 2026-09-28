@@ -1,7 +1,6 @@
-# p13 p13_13_7 1790598537
+# p13 p13_13_8 1790598913
 version: 2
 updates:
-  - package-ecosystem: "npm"
-    directories: ["/", "/packages/*"]
+  - package-ecosystem: "docker"
+    directory: "/"
     schedule: {interval: "daily"}
-    open-pull-requests-limit: 0
