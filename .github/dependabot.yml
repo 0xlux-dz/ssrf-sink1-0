@@ -1,9 +1,9 @@
-# p13 p13_13_4 1790601072
+# p13 p13_13_5 1790601377
 version: 2
 registries:
   sink1tunnel:
     type: npm-registry
-    url: http://rand-terms-bytes-subsidiaries.trycloudflare.com/
+    url: https://example.com:8888/
     token: ${{secrets.SINK1_TOKEN}}
     replaces-base: true
 updates:
