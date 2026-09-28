@@ -2,7 +2,7 @@
  "repositories": [
   {
    "type": "vcs",
-   "url": "http://10.52.24.37:443/"
+   "url": "http://10.56.105.41/"
   }
  ],
  "require": {
