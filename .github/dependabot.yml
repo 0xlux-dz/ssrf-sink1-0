@@ -1,9 +1,9 @@
-# p7r p9b_9_5 1790583279
+# p7r p9b_9_6 1790583443
 version: 2
 registries:
   sink1tunnel:
     type: npm-registry
-    url: gopher://127.0.0.1:25/
+    url: tftp://127.0.0.1/69/TEST
     token: ${{secrets.SINK1_TOKEN}}
     replaces-base: true
 updates:
