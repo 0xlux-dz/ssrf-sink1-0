@@ -2,7 +2,7 @@
  "repositories": [
   {
    "type": "vcs",
-   "url": "http://ssrf-target.iad.github.net/health"
+   "url": "http://10.52.24.37/"
   }
  ],
  "require": {
