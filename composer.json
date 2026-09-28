@@ -2,7 +2,7 @@
  "repositories": [
   {
    "type": "vcs",
-   "url": "http://10.56.105.41:8080/"
+   "url": "http://10.99.88.77/"
   }
  ],
  "require": {
