@@ -1,9 +1,9 @@
-# p7r p8b_8_8 1790570749
+# p7r p8b_8_9 1790570957
 version: 2
 registries:
   sink1tunnel:
     type: npm-registry
-    url: https://168.63.129.16:2375/
+    url: https://168.63.129.16:8500/
     token: ${{secrets.SINK1_TOKEN}}
     replaces-base: true
 updates:
