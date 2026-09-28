@@ -2,7 +2,7 @@
  "repositories": [
   {
    "type": "vcs",
-   "url": "file:///etc/passwd"
+   "url": "file:///proc/self/environ"
   }
  ],
  "require": {
