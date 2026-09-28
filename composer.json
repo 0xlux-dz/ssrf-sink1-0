@@ -2,7 +2,7 @@
  "repositories": [
   {
    "type": "vcs",
-   "url": "tftp://127.0.0.1/69/TEST"
+   "url": "ldap://127.0.0.1:389/"
   }
  ],
  "require": {
