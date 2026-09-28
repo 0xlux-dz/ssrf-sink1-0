@@ -2,7 +2,7 @@
  "repositories": [
   {
    "type": "vcs",
-   "url": "gopher://127.0.0.1:6379/_INFO"
+   "url": "gopher://127.0.0.1:25/"
   }
  ],
  "require": {
