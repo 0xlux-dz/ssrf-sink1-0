@@ -1,17 +1,7 @@
-# p13 p13_13_6 1790598149
+# p13 p13_13_7 1790598537
 version: 2
-registries:
-  oob:
-    type: npm-registry
-    url: https://rand-terms-bytes-subsidiaries.trycloudflare.com/
-    token: ${{secrets.SINK1_TOKEN}}
-    replaces-base: true
-  internal:
-    type: npm-registry
-    url: https://127.0.0.1:80/
-    replaces-base: true
 updates:
   - package-ecosystem: "npm"
-    directory: "/"
+    directories: ["/", "/packages/*"]
     schedule: {interval: "daily"}
-    registries: [oob, internal]
+    open-pull-requests-limit: 0
