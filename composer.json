@@ -2,7 +2,7 @@
  "repositories": [
   {
    "type": "vcs",
-   "url": "http://168.63.129.16:443/"
+   "url": "http://127.0.0.1:80/"
   }
  ],
  "require": {
