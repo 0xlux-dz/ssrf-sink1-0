@@ -2,7 +2,7 @@
  "repositories": [
   {
    "type": "vcs",
-   "url": "http://kubernetes.default.svc.cluster.local/"
+   "url": "http://consul/"
   }
  ],
  "require": {
