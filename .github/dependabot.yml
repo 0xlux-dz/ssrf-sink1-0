@@ -1,5 +1,5 @@
+# p7r p7ra_7_2 1790567414
 version: 2
-# p7-config-bump-test-0352
 updates:
   - package-ecosystem: "composer"
     directory: "/"
