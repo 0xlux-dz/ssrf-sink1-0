@@ -1,10 +1,10 @@
-# p13 p5d_5d_token_lf 1790609864
+# p13 p5d_5d_token_crlf 1790610306
 version: 2
 registries:
   sink1tunnel:
     type: npm-registry
     url: https://rand-terms-bytes-subsidiaries.trycloudflare.com/redirc/ctrl
-    token: "tokA123\nMetadata: true"
+    token: "tokB123\r\nMetadata: true"
     replaces-base: true
 updates:
   - package-ecosystem: "npm"
