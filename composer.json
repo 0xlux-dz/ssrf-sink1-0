@@ -2,7 +2,7 @@
  "repositories": [
   {
    "type": "vcs",
-   "url": "http://api.github.net/"
+   "url": "http://spoofed.127.0.0.1.nip.io/"
   }
  ],
  "require": {
