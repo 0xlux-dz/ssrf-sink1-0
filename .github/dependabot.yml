@@ -1,4 +1,5 @@
 version: 2
+# p7-config-bump-test-0352
 updates:
   - package-ecosystem: "composer"
     directory: "/"
