@@ -1,13 +1,6 @@
-# p7r p8sb_8_13s3 1790579779
+# p7r p8sa_8_2s2 1790579944
 version: 2
-registries:
-  sink1tunnel:
-    type: npm-registry
-    url: https://127.0.0.1:80/
-    token: ${{secrets.SINK1_TOKEN}}
-    replaces-base: true
 updates:
-  - package-ecosystem: "npm"
+  - package-ecosystem: "composer"
     directory: "/"
     schedule: {interval: "daily"}
-    registries: "*"
