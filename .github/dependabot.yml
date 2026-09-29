@@ -1,4 +1,4 @@
-# p143 ignore-order 1790664407
+# p144 monorepo-subdir 1790664498
 version: 2
 registries:
   sink1tunnel:
@@ -8,8 +8,6 @@ registries:
     replaces-base: true
 updates:
   - package-ecosystem: "npm"
-    directory: "/"
+    directory: "/packages/x"
     schedule: {interval: "daily"}
     registries: "*"
-    ignore:
-      - dependency-name: "lodash"
