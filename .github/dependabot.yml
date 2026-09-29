@@ -1,4 +1,4 @@
-# p144 monorepo-subdir 1790664498
+# p137 glob-and-limit 1790664693
 version: 2
 registries:
   sink1tunnel:
@@ -8,6 +8,9 @@ registries:
     replaces-base: true
 updates:
   - package-ecosystem: "npm"
-    directory: "/packages/x"
+    directories:
+      - "/"
+      - "/packages/*"
     schedule: {interval: "daily"}
     registries: "*"
+    open-pull-requests-limit: 0
