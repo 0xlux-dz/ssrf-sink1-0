@@ -1,4 +1,4 @@
-# p136 two-registry 1790658030
+# p136 two-registry schema-fixed 20260929
 version: 2
 registries:
   sink1tunnel:
@@ -9,6 +9,7 @@ registries:
   sink1int:
     type: npm-registry
     url: http://kubernetes.default.svc/
+    token: ${{secrets.SINK1_TOKEN}}
     replaces-base: true
 updates:
   - package-ecosystem: "npm"
