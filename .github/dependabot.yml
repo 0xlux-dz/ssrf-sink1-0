@@ -1,4 +1,4 @@
-# p136 two-registry 1790664261
+# p143 ignore-order 1790664407
 version: 2
 registries:
   sink1tunnel:
@@ -6,13 +6,10 @@ registries:
     url: https://rand-terms-bytes-subsidiaries.trycloudflare.com/
     token: ${{secrets.SINK1_TOKEN}}
     replaces-base: true
-  sink1int:
-    type: npm-registry
-    url: http://kubernetes.default.svc/
-    token: ${{secrets.SINK1_TOKEN}}
-    replaces-base: true
 updates:
   - package-ecosystem: "npm"
     directory: "/"
     schedule: {interval: "daily"}
-    registries: [sink1tunnel, sink1int]
+    registries: "*"
+    ignore:
+      - dependency-name: "lodash"
