@@ -1,9 +1,9 @@
-# p164 open 1790691323
+# p164 filt 1790691338
 version: 2
 registries:
   sink1tunnel:
     type: npm-registry
-    url: https://168.63.129.16:80/
+    url: https://168.63.129.16:443/
     token: ${{secrets.SINK1_TOKEN}}
     replaces-base: true
 updates:
